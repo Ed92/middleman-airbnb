@@ -1,0 +1,13 @@
+<div id="about">
+  <div class="about-content">
+    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline">
+      <% %w(Djamgarian Sutherland).each do |user| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user}", class: "img-circle" %>
+          <h2><%= user %></h2>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
